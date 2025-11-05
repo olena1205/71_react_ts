@@ -1,0 +1,21 @@
+.counter-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  min-width: 400px;
+  padding: 20px;
+  background-color: white;
+  border: 2px solid rgb(4, 0, 255);
+  border-radius: 20px;
+}
+
+.button-wrapper {
+  width: 100px;
+}
+
+.result-container {
+  font-size: 28px;
+  font-weight: bold;
+  color: rgb(15, 14, 72);
+}
