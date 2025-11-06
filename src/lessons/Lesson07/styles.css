@@ -1,0 +1,11 @@
+.lesson07-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  flex: 1;
+  padding: 50px;
+  background: rgb(40, 106, 198);
+  font-size: 36px;
+}
