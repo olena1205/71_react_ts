@@ -1,6 +1,5 @@
 // Импорты лекций
-
-import Lesson07 from "lessons/Lesson07/Lesson07";
+import Lesson08 from "lessons/Lesson08/Lesson08";
 
 // import Lesson06 from "./lessons/Lesson06/Lesson06";
 
@@ -13,7 +12,11 @@ function App() {
       {/* <Lesson06 /> */}
 
       {/* Лекция 7 - TypeScript: object types*/}
-      <Lesson07 />
+      {/* <Lesson07 /> */}
+
+            {/* Лекция 8 - Styling components*/}
+            <Lesson08/>
+
     </>
   );
 }
