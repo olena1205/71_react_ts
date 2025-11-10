@@ -1,5 +1,8 @@
+import GlobalStyles from "styles/GlobalStyles";
+
 // Импорты лекций
-import Lesson08 from "lessons/Lesson08/Lesson08";
+// import Lesson08 from "lessons/Lesson08/Lesson08";
+import Lesson09 from "lessons/Lesson09/Lesson09";
 
 // import Lesson06 from "./lessons/Lesson06/Lesson06";
 
@@ -8,15 +11,18 @@ import Lesson08 from "lessons/Lesson08/Lesson08";
 function App() {
   return (
     <>
+      <GlobalStyles />
       {/* Лекция 6 - TypeScript */}
       {/* <Lesson06 /> */}
 
       {/* Лекция 7 - TypeScript: object types*/}
       {/* <Lesson07 /> */}
 
-            {/* Лекция 8 - Styling components*/}
-            <Lesson08/>
+      {/* Лекция 8 - Styling components*/}
+      {/* <Lesson08/> */}
 
+      {/* Лекция 9 - Styling components, control components*/}
+      <Lesson09 />
     </>
   );
 }
