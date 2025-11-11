@@ -22,7 +22,7 @@ function App() {
       {/* <Lesson08/> */}
 
       {/* Лекция 9 - Styling components, control components*/}
-      <Lesson09 />
+      {/* <Lesson09 /> */}
     </>
   );
 }
