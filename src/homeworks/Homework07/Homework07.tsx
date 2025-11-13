@@ -1,7 +1,6 @@
 import { v4 } from "uuid";
 import type { JSX } from "react";
 
-import 
 
 import AnimalCard from "components/AnimalCard/AnimalCard";
 import { animalsData } from "./data";
