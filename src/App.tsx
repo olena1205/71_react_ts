@@ -26,7 +26,7 @@ function App() {
       {/* <Lesson09 /> */}
 
       {/* Лекция 10 - useEffect*/}
-      <Lesson10 />
+      {/* <Lesson10 /> */}
     </>
   );
 }
