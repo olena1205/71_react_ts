@@ -8,6 +8,7 @@ function Input({
   label,
   placeholder,
   value,
+  error,
   onChange,
 }: InputProps) {
   return (
@@ -21,6 +22,7 @@ function Input({
         value={value}
         onChange={onChange}
       />
+      <div className="error">{error}</div>
     </div>
   );
 }
