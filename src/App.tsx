@@ -10,6 +10,7 @@ import Lesson12 from "lessons/Lesson12/Lesson12";
 
 
 // Импорты домашних работ
+import Homework07 from "homeworks/Homework07/Homework07";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
 
       {/* Лекция 7 - TypeScript: object types*/}
       {/* <Lesson07 /> */}
+      <Homework07 />
 
       {/* Лекция 8 - Styling components*/}
       {/* <Lesson08/> */}
