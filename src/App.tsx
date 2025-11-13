@@ -6,6 +6,8 @@ import GlobalStyles from "styles/GlobalStyles";
 // import Lesson08 from "lessons/Lesson08/Lesson08";
 // import Lesson09 from "lessons/Lesson09/Lesson09";
 // import Lesson10 from "lessons/Lesson10/Lesson10";
+import Lesson12 from "lessons/Lesson12/Lesson12";
+
 
 // Импорты домашних работ
 
@@ -27,6 +29,9 @@ function App() {
 
       {/* Лекция 10 - useEffect*/}
       {/* <Lesson10 /> */}
+
+      {/* Лекция 12 - Formik*/}
+      <Lesson12 />
     </>
   );
 }

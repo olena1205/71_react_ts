@@ -22,3 +22,9 @@ input {
 input::placeholder {
   color: #a5a5a5;
 }
+
+.error{
+   height: 18px;
+  color: red;
+  font-size: 18px;
+}
