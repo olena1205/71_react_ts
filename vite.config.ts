@@ -12,6 +12,7 @@ export default defineConfig({
       homeworks: path.resolve(__dirname, "src/homeworks"),
       lessons: path.resolve(__dirname, "src/lessons"),
       styles: path.resolve(__dirname, "src/styles"),
+      pages: path.resolve(__dirname, "src/pages"),
     },
   },
 });
