@@ -1,4 +1,4 @@
-import "./styles.css";
+import { InputContainer, InputElement, Label } from "./styles";
 import type { InputProps } from "./types";
 
 function Input({
@@ -12,9 +12,9 @@ function Input({
   onChange,
 }: InputProps) {
   return (
-    <div className="input-container">
-      {label && <label htmlFor={id}>{label}</label>}
-      <input
+    <InputContainer>
+      {label && <Label htmlFor={id}>{label}</Label>}
+      <InputElement
         name={name}
         type={type}
         id={id}
@@ -23,7 +23,7 @@ function Input({
         onChange={onChange}
       />
       <div className="error">{error}</div>
-    </div>
+    </InputContainer>
   );
 }
 export default Input;
