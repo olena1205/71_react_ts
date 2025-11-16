@@ -12,12 +12,12 @@ import User from "pages/Users/components/User/User";
 // import Lesson07 from "lessons/Lesson07/Lesson07";
 // import Lesson08 from "lessons/Lesson08/Lesson08";
 // import Lesson09 from "lessons/Lesson09/Lesson09";
-// import Lesson10 from "lessons/Lesson10/Lesson10";
+import Lesson10 from "lessons/Lesson10/Lesson10";
 // import Lesson12 from "lessons/Lesson12/Lesson12";
 
 // Импорты домашних работ
 // import Homework07 from "homeworks/Homework07/Homework07";
-import Homework09 from "homeworks/Homework09/Homework09";
+// import Homework09 from "homeworks/Homework09/Homework09";
 
 function App() {
   return (
@@ -46,10 +46,10 @@ function App() {
 
       {/* Лекция 9 - Styling components, control components*/}
       {/* <Lesson09 /> */}
-      <Homework09 />
+      {/* <Homework09 /> */}
 
       {/* Лекция 10 - useEffect*/}
-      {/* <Lesson10 /> */}
+      <Lesson10 />
 
       {/* Лекция 12 - Formik*/}
       {/* <Lesson12 /> */}

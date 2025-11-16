@@ -57,7 +57,6 @@ function Lesson10() {
         "https://official-joke-api.appspot.com/random_joke"
       );
       const data = result.data;
-      console.log(result.data);
       setJoke(`${data.setup} - ${data.punchline}`);
     } catch (error: any) {
       setError(error.message);
