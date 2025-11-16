@@ -13,4 +13,8 @@ export const ButtonComponent = styled.button<ButtonStyledProps>`
   border: none;
   border-radius: 4px;
   cursor: pointer;
+
+  &:disabled {
+    background: grey;
+  }
 `;

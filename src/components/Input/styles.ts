@@ -15,7 +15,7 @@ export const Label = styled.label`
 export const InputElement = styled.input`
   width: 100%;
   padding: 12px;
-  border: 1px solid#3f3f3f;
+  border: 1px solid #3f3f3f;
   border-radius: 4px;
   font-size: 16px;
   outline: none;
@@ -23,4 +23,10 @@ export const InputElement = styled.input`
   &::placeholder {
     color: #a5a5a5;
   }
+`;
+
+export const ErrorMessage = styled.div`
+  height: 18px;
+  color: red;
+  font-size: 18px;
 `;

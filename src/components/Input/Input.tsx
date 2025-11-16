@@ -1,4 +1,4 @@
-import { InputContainer, InputElement, Label } from "./styles";
+import { ErrorMessage, InputContainer, InputElement, Label } from "./styles";
 import type { InputProps } from "./types";
 
 function Input({
@@ -11,6 +11,7 @@ function Input({
   error,
   onChange,
 }: InputProps) {
+
   return (
     <InputContainer>
       {label && <Label htmlFor={id}>{label}</Label>}
@@ -22,8 +23,9 @@ function Input({
         value={value}
         onChange={onChange}
       />
-      <div className="error">{error}</div>
+      <ErrorMessage>{error}</ErrorMessage>
     </InputContainer>
   );
 }
+
 export default Input;

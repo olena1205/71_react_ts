@@ -1,6 +1,12 @@
 import { ButtonComponent } from "./styles";
 import type { ButtonProps } from "./types";
 
+// interface ButtonProps {
+//   type: "button" | "submit" | "reset";
+//   name: string;
+//   onClick: () => void;
+//   disabled: boolean;
+// }
 
 function Button({
   type = "button",
@@ -11,7 +17,6 @@ function Button({
 }: ButtonProps) {
   return (
     <ButtonComponent
-      className="button"
       disabled={disabled}
       type={type}
       onClick={onClick}
@@ -21,5 +26,5 @@ function Button({
     </ButtonComponent>
   );
 }
-export default Button;
 
+export default Button;
