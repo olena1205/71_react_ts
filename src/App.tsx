@@ -11,7 +11,7 @@ import User from "pages/Users/components/User/User";
 // import Lesson06 from "lessons/Lesson06/Lesson06";
 // import Lesson07 from "lessons/Lesson07/Lesson07";
 // import Lesson08 from "lessons/Lesson08/Lesson08";
-// import Lesson09 from "lessons/Lesson09/Lesson09";
+import Lesson09 from "lessons/Lesson09/Lesson09";
 // import Lesson10 from "lessons/Lesson10/Lesson10";
 // import Lesson12 from "lessons/Lesson12/Lesson12";
 
@@ -46,7 +46,7 @@ function App() {
       {/* <Lesson08/> */}
 
       {/* Лекция 9 - Styling components, control components*/}
-      {/* <Lesson09 /> */}
+      <Lesson09 />
 
       {/* Лекция 10 - useEffect*/}
       {/* <Lesson10 /> */}
