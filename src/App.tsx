@@ -1,3 +1,4 @@
+import { routesData } from "routes/routes";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import GlobalStyles from "styles/GlobalStyles";
@@ -6,6 +7,7 @@ import Home from "pages/Home/Home";
 import Users from "pages/Users/Users";
 import About from "pages/About/About";
 import User from "pages/Users/components/User/User";
+import type { RoutePage } from "routes/types";
 
 // Импорты лекций
 // import Lesson06 from "lessons/Lesson06/Lesson06";
@@ -17,22 +19,19 @@ import User from "pages/Users/components/User/User";
 // Импорты домашних работ
 // import Homework07 from "homeworks/Homework07/Homework07";
 // import Homework09 from "homeworks/Homework09/Homework09";
-import Homework10 from "homeworks/Homework10/Homework10";
-
+// import Homework10 from "homeworks/Homework10/Homework10";
 
 function App() {
+  const routes = routesData.map(({ path, element }: RoutePage) => {
+    return <Route path={path} element={element} />;
+  });
+
   return (
     <BrowserRouter>
       <GlobalStyles />
       <Layout>
         {/* Routes - собирает все маршруты приложение */}
-        <Routes>
-          {/* Route - компонент, в который передаётся маршрут и контент */}
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/users" element={<Users />} />
-          <Route path="/users/user" element={<User />} />
-        </Routes>
+        <Routes>{routes}</Routes>
       </Layout>
 
       {/* Лекция 6 - TypeScript */}
@@ -51,7 +50,7 @@ function App() {
 
       {/* Лекция 10 - useEffect*/}
       {/* <Lesson10 /> */}
-      <Homework10 />
+      {/* <Homework10 /> */}
 
       {/* Лекция 12 - Formik*/}
       {/* <Lesson12 /> */}

@@ -15,9 +15,17 @@ export const Header = styled.header`
   background-color: #a7c7d7ff;
   color: #0a2837ff;
 `;
+
+export const HeaderLogoWrapper = styled.div`
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  max-width: 200px;
+`;
+
 export const Logo = styled.div`
-  width: 80px;
-  height: 80px;
+  min-width: 80px;
+  min-height: 80px;
   background-color: #0a2837ff;
   border-radius: 50%;
   cursor: pointer;
@@ -25,12 +33,6 @@ export const Logo = styled.div`
 export const NavContainer = styled.nav`
   display: flex;
   gap: 16px;
-`;
-
-export const StyledNavLink = styled(NavLink)`
-  text-decoration: none;
-  font-size: 20px;
-  color: #0a2837ff;
 `;
 
 export const Main = styled.main`
